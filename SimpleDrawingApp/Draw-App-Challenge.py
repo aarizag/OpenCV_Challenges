@@ -59,13 +59,13 @@ while True:
         screenCapCounter += 1
     elif ch & 0xFF == ord('r'):
         color[0] = not color[0]
-        print("cycling red")
+        print("Red =",color[0])
     elif ch & 0xFF == ord('g'):
         color[1] = not color[1]
-        print("cycling green")
+        print("Green =", color[1])
     elif ch & 0xFF == ord('b'):
         color[2] = not color[2]
-        print("cycling blue")
+        print("Blue =", color[2])
 
     if ch & 0xFF == ord('q'):
         break
